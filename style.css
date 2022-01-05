@@ -1,11 +1,21 @@
+:root {
+  --poppins-font: 'Poppins', sans-serif;
+}
 body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 
 #port-head {
   display: flex;
   justify-content: space-evenly;
-  height: 1000px;
 }
 
 .port-head-left_side {
@@ -56,4 +66,116 @@ body {
   text-decoration: none;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
+}
+
+/* middle section */
+
+/* * first-middle-section */
+
+#first-middle-section_heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--poppins-font);
+  color: #13103a;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 150px 0 50px 0;
+}
+
+#first-middle-section h1 span {
+  color: #ffad5a;
+}
+
+.first-middle-section_padding {
+  padding: 0 27px 10px 27px;
+  font-family: var(--poppins-font);
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.first-middle-section-whole_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.first-middle-section-first_container {
+  width: 30%;
+  background-color: #eef6f7;
+  border-radius: 20px;
+}
+
+.first-middle-section-seccond_container {
+  width: 30%;
+  background-color: #ffefef;
+  border-radius: 20px;
+}
+
+.first-middle-section-third_container {
+  width: 30%;
+  background-color: #fff4d6;
+  border-radius: 20px;
+}
+
+.first-middle-section-first_container_img {
+  padding-top: 10px;
+  width: 30%;
+}
+
+/* seccond-middle-section */
+
+#seccond-middle-section {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.seccond-middle-section_left {
+  width: 40%;
+}
+
+.seccond-middle-section_right {
+  width: 40%;
+}
+
+.seccond-middle-section_img {
+  width: 60%;
+}
+
+.seccond-middle-section_right p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(62, 62, 62);
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.seccond-middle-section_right h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+}
+
+/* footer */
+
+footer {
+  margin-top: 100px;
+  background-color: #0b0d17;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+footer h1 {
+  font-family: 'Noto Serif';
+}
+
+footer h1 span {
+  color: #ff5959;
+}
+
+footer p {
+  font-family: var(--poppins-font);
 }
