@@ -36,6 +36,17 @@ p {
   font-family: 'Noto Serif', serif;
   color: #333333;
   font-size: 60px;
+  padding-left: 8px;
+}
+
+.side-line {
+  background-color: #ff5959;
+  width: 4px;
+  height: 125px;
+  position: absolute;
+  top: 11%;
+  left: 63px;
+  border-radius: 192px;
 }
 
 .port-head-left_side h1 span {
