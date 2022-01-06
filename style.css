@@ -92,7 +92,7 @@ h1 span {
 .first-section_container {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   margin: 0 89px 0 89px;
 }
 
@@ -120,7 +120,7 @@ h1 span {
   width: 30%;
 }
 
-#middle-section {
+.middle-section {
   display: flex;
   margin-top: 100px;
   justify-content: space-around;
@@ -165,6 +165,14 @@ footer {
 
 .noto-font {
   font-family: 'Noto Serif';
+}
+
+footer h1 {
+  color: white;
+}
+
+footer p {
+  color: rgb(167, 162, 162);
 }
 
 footer h1 span {
