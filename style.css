@@ -127,6 +127,23 @@ h1 span {
   align-items: center;
 }
 
+.back-circle {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position-y: center;
+}
+
+.back-circle-2 {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+
+  background-size: 10%;
+  background-position-x: 1400px;
+  background-position-y: 98%;
+  height: 601px;
+}
+
 .middle-section_width {
   width: 40%;
 }
